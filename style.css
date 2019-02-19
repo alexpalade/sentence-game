@@ -71,7 +71,7 @@ h1 {
 #levelList {
   background: #ffeeee;
   border: 1px solid #777;
-  margin: 0 10px 0 10px;
+  margin: 0 10px 0 0;
 }
 
 #levelList ul {
