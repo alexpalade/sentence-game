@@ -1,1 +1,111 @@
-~*
+body {
+  font-family: 'sans-serif';
+  background: gray;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px;
+}
+
+#main {
+  margin: 20px auto 0 auto;
+  width: 900px;
+  background: #fafadd;
+  border-radius: 10px;  
+}
+
+#title {
+  text-align: center;
+  /* border: 1px solid black; */
+}
+
+#imageDiv {
+  width: 648px;
+  text-align: right;
+  padding: 0;
+}
+
+#imageDiv img {
+  max-width: 628px;
+  padding: 0;
+  border: 1px solid #777;
+}
+
+#sentence {
+  text-align: center;
+  /* border: 1px solid black; */
+  font-size: 24px;
+  padding: 15px;
+}
+
+#sentence select {
+}
+
+#message {
+  text-align: center;
+  font-size: 20px;
+  padding: 15px;
+}
+
+.tryAgain {
+  padding: 10px;
+}
+
+.nextLevelButton {
+  background: #33dd00;
+  border: 1px solid gray;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+
+.nextLevelButton:hover {
+  background: #55ee11;
+}
+
+#levelList {
+  background: #ffeeee;
+  border: 1px solid #777;
+  margin: 0 10px 0 10px;
+}
+
+#levelList ul {
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+}
+
+#levelList ul li.selected a {
+  /*font-weight: bold;*/
+  color: #0000ff;
+}
+
+#levelList a {
+  text-decoration: none;
+  color: #aaaaee;
+}
+
+#choicesList {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+#choicesList li {
+  display: inline;
+  margin: 5px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
