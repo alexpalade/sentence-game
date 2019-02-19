@@ -37,28 +37,28 @@ var levels = [
   {
     name: 'Kids Playing 1',
     image: 'autumn.jpg',
-    sentence: 'The season is ?',
+    sentence: 'The season is ?.',
     correct: 'autumn',
     wrong: ['summer', 'spring', 'winter']
   },
   {
     name: 'Gym 1',
     image: 'gym.jpg',
-    sentence: 'The girl uses a stationary ?',
+    sentence: 'The girl uses a stationary ?.',
     correct: 'bike',
     wrong: ['chair', 'train', 'snowboard']
   },
   {
     name: 'Gym 2',
     image: 'gym.jpg',
-    sentence: 'Two ? hang from the ceiling',
+    sentence: 'Two ? hang from the ceiling.',
     correct: 'rings',
     wrong: ['plates', 'circles']
   },
   {
     name: 'Gym 3',
     image: 'gym.jpg',
-    sentence: 'There is a picture of a ? on the wall',
+    sentence: 'There is a picture of a ? on the wall.',
     correct: 'basket',
     wrong: ['fishing net', 'table', 'crossword puzzle']
   },
